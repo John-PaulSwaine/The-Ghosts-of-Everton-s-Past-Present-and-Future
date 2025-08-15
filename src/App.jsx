@@ -12,6 +12,7 @@ import EraSix from './pages/eraSix'
 import EraSeven from './pages/eraSeven'
 import EraEight from './pages/eraEight'
 import Future from './pages/future'
+import Logo from './assets/images/Logo3.png'
 
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
         <Link to='2013-2024' className='links'>2013-2024</Link>
         <Link to='2024-present' className='links'>2024-Present</Link>
         <Link to='future' className='links'>Future</Link>
+        <img src={Logo} alt="Logo" id='navBarLogo'/>
       </nav>
 
       <Routes>
