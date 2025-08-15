@@ -37,13 +37,13 @@ const App = () => {
         <Route path='/about' element={<About />}></Route>
         <Route path='/1878-1914' element={<EraOne />}></Route>
         <Route path='/1918-1939' element={<EraTwo />}></Route>
-        <Route path='' element={<EraThree />}></Route>
-        <Route path='' element={<EraFour />}></Route>
-        <Route path='' element={<EraFive />}></Route>
-        <Route path='' element={<EraSix />}></Route>
-        <Route path='' element={<EraSeven />}></Route>
-        <Route path='' element={<EraEight />}></Route>
-        <Route path='' element={<Future />}></Route>
+        <Route path='/1935-1981' element={<EraThree />}></Route>
+        <Route path='/1981-1992' element={<EraFour />}></Route>
+        <Route path='1992-2002' element={<EraFive />}></Route>
+        <Route path='2002-2013' element={<EraSix />}></Route>
+        <Route path='2013-2024' element={<EraSeven />}></Route>
+        <Route path='2024-present' element={<EraEight />}></Route>
+        <Route path='future' element={<Future />}></Route>
       </Routes>
     </div>
   )
